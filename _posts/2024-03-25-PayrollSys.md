@@ -1,5 +1,5 @@
 ---
-title: MotorPH Payroll System Documentation
+title: MO-IT110 - Terminal Assessment: MotorPH Payroll System Documentation A2101 Dymosco, P., Gernale, G., Rivera, R.
 categories: [payroll,systems]
 tags: [java,payroll,systems]
 ---
