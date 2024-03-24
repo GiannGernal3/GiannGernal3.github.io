@@ -3,6 +3,7 @@ title: MotorPH Payroll System Documentation
 categories: [payroll,systems]
 tags: [java,payroll,systems]
 ---
+
 # MotorPH Payroll System Documentation
 #### Prerequisites: JRE (Java Runtime Environment)
 
@@ -58,4 +59,58 @@ Within the files of the system, is located the “Login Accounts.csv”, this fi
 
 
 ## Using the Payroll System
+
+### Secure Login Procedures
+
+### Salary and Deduction Calculations
+
+### Leave Applications
+
+
+## Technical Information
+
+This section provides details and diagrams on how the payroll system will function that will be elaborated in the form of tests and diagrams to show how it looks whether an employee or HR manager uses this interface. It will also show how it performed and documentation regarding the payroll system to see if it is fully functional and shows the process of storing and managing employee data within this system.
+
+### Use Case Diagram
+![alt text](../UseCaseDiagram.png)
+
+#### Use Case Scenario 1 - Employee Attendance: 
+
+The employee attendance tracking system seamlessly records attendance. Directly interfacing with both the employee time clock and information management system, it logs each employee's attendance, ensuring accurate payroll processing.
+
+1. Employees enter work and clock in with the company-issued employee time clock system.
+2. The employee time clock system then interacts with the time and attendance module to update the attendance database with the time and date the employee clocks in.
+3. During after-work hours, the employee again uses the employee time clock system to clock out of work.
+4. The employee time clock system then interacts with the time and attendance module to update the attendance database with the time and date the employee clocks out.
+
+#### Use Case Scenario 2 - Employee Information Management: 
+
+The employee information management system mandates login credentials for MotorPH employees, enabling access to their data. HR Managers are given update/ edit access on the other hand. It serves as a central hub for the Attendance Tracking and Payroll Calculation modules' interaction.
+
+1. The IT Personnel creates the employee with their own account and provides their login credentials. If forgotten, an employee can request the IT Personnel to retrieve their login information via email.
+2. Upon logging in, the employee can view their information, this information is relevant to the calculation of their payroll. However, they can only view this information, any instances of editing are forbidden.
+3. HR Managers will also be required to log in with their credentials. Upon logging in, they can view their information as well as other employee information. 
+4. HR Managers can hover to a tab that allows them to edit and update employee information relevant to the payroll calculation.
+5. HR Managers validate the information, if the presented information is not valid, they can edit this information.
+6. Once validated, the HR Managers forward the information to the payroll administrators for calculation.
+
+#### Use Case Scenario 3 - Payroll Calculation: 
+
+The payroll calculation system/ module is one of the pivotal features of the payroll system. This allows for swift payslip calculation for all the MotorPH Employees.
+
+1. Payroll Administrators are also required to log in with their credentials. Upon logging in they can view the validated information, and they are now able to conduct payroll calculations.
+2. The payroll information is inputted into the calculation system for processing.
+3. Once completed, the payroll administrator will validate the payslip for errors.
+4. The Payroll Calculation module then interacts with the payroll distribution module.
+
+#### Use Case Scenario 4 - Payroll Distribution:
+
+The Payroll Distribution module/ system is the last step for the payroll system. This enables both the payroll administrator and other designated representatives to distribute the calculated and validated payslip to each MotorPH Employee.
+
+1. The Payroll Administrator accesses this module within the payroll system.
+2. The Payroll Distribution system then distributes the payslip to each employee of MotorPH.
+
+### Class Diagram
+
+### Testing
 
