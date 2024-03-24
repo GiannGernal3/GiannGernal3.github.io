@@ -4,7 +4,7 @@ categories: [payroll,systems]
 tags: [java,payroll,systems]
 ---
 
-# MotorPH Payroll System Documentation
+# MO-IT110 - Terminal Assessment: MotorPH Payroll System Documentation A2101 Dymosco, P., Gernale, G., Rivera, R.
 #### Prerequisites: JRE (Java Runtime Environment)
 
 ## Introduction
