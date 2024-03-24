@@ -114,3 +114,7 @@ The Payroll Distribution module/ system is the last step for the payroll system.
 
 ### Testing
 
+On March 14, Francis, Jomari, and our group worked together on Collaborative Testing, where we checked our project for any errors and discussed improvements. Then, on March 18, we had a session with our Subject Mentor for Object-Oriented Programming (OOP). We reviewed our code with the mentor's guidance, making necessary adjustments. The screenshots of our collaborative testing and the jamboard used during mentoring were instrumental in this process. These sessions were essential as they helped us refine our code and meet the project requirements more effectively.
+
+#### Screenshots from the Testing:
+
