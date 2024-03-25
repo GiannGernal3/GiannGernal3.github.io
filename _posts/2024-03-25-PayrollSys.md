@@ -60,11 +60,96 @@ Within the files of the system, is located the “Login Accounts.csv”, this fi
 
 ## Using the Payroll System
 
-### Secure Login Procedures
+The software must manage employee information, track time and attendance, and calculate salaries accurately. It should prioritize secure account authentication with multi-factor and biometric options. The system must generate detailed reports for employee performance and financial insights. Additionally, it must comply with tax regulations, calculating taxable income and generating compliance reports. The focus is on a seamless user experience, data accuracy, and regulatory compliance in the payroll management system.
 
-### Salary and Deduction Calculations
+#### Employee Login Page
+![alt text](<../Employee Login Page.png>)
+1. Employees can securely access the system using their unique email and password.
+2. Enhanced user experience with a “Show Password” feature.
+3. Role-based access control ensures security and privacy for Employees, HR Managers, Payroll Administrators, and IT Personnel.
 
-### Leave Applications
+#### Employee Home Page
+![alt text](<../Employee Home Page.png>)
+1. Welcome interface with MotorPH logo.
+2. Convenient navigation panel featuring Home, Account Profile, Attendance History, Leave Application, Overtime Request, Salary Print, and Sign Out options.
+
+#### Employee Account Profile
+![alt text](<../Employee Account Profile.png>)
+1. Detailed display of personal information including Employee ID to Hourly Rate.
+2. Empower employees to manage and update their personal details effortlessly.
+
+#### Employee Attendance History
+![alt text](<../Employee Attendance History.png>)
+1. A comprehensive view of individual attendance records.
+2. Easy filtering by month and quick access to complete attendance history.
+
+#### Employee Leave Form
+![alt text](<../Employee Leave Form.png>)
+1. Streamlined leave request submission with options for Sick, Vacation, and Emergency leaves.
+2. Real-time visibility of remaining leave credits and past leave history.
+
+#### Employee Overtime Form
+![alt text](<../Employee Overtime Form.png>)
+1. Effortless submission of overtime requests with flexibility in specifying hours.
+2. Transparent overview of previous overtime requests and approvals.
+
+#### Employee Salary
+![alt text](<../Employee Salary.png>)
+1. Access to salary details for any chosen month and year.
+2. Ensures accuracy through final review by Payroll Administrator before distribution.
+
+#### HR Home Page
+![alt text](<../HR Home Page.png>)
+1. Familiar interface with added functionality for managing employees.
+2. Exclusive access to the “Manage Employee” feature for HR personnel.
+
+#### HR Manage Employee
+![alt text](<../HR Manage Employee.png>)
+1. Centralized hub for HR to handle employee data including updates and approvals
+2. Seamless management of leave requests, overtime requests, and employee records.
+
+#### HR Leave Request Approval
+![alt text](<../HR Leave Request Approval.png>)
+1. Convenient overview of pending leave requests for approval or decline.
+
+#### HR Overtime Request Approval
+![alt text](<../HR Overtime Request Approval.png>)
+1. Convenient overview of pending overtime requests for approval or decline.
+
+#### HR Manage Record
+![alt text](<../HR Manage Record.png>)
+1. Restricted access for Payroll Admin and HR to view comprehensive employee data.
+
+#### HR Create Employee
+![alt text](<../HR Create Employee.png>)
+1. Empowers HR to efficiently manage employee information including addition, deletion, and updates.
+2. Detailed table showcasing employee records for seamless administration.
+
+#### Payroll Administrator Home Page
+![alt text](<../Payroll Administrator Home Page.png>)
+1. Similar layout to Employee Home Page with additional features for payroll management.
+2. Exclusive access to “Access Payroll” and “View Employee” options for Payroll Admins.
+
+#### Payroll View Employee
+![alt text](<../Payroll View Employee.png>)
+1. Secure platform for Payroll Admins to view detailed employee information.
+2. Facilitates seamless transition ro payroll processing.
+
+#### Payroll Management
+![alt text](<../Payroll Management.png>)
+1. Efficient salary calculation process with options for selecting employees and months.
+2. Detailed breakdown of weekly salaries, gross earnings, deductions, and net salary.
+3. Simplified payslip distribution process after finalizing salary checks.
+
+#### IT Personnel Home Page
+![alt text](<../IT Personnel Home Page.png>)
+1. Similar layout to the Employee Home Page with additional features for account management.
+2. Exclusive access to the “Create Account” feature for IT Personnel.
+
+#### IT Create Account
+![alt text](<../IT Create Account.png>)
+1. Centralized platform for IT Personnel to manage employee accounts.
+2. Authority to create, delete, and update accounts with role-based access control.
 
 
 ## Technical Information
@@ -112,9 +197,17 @@ The Payroll Distribution module/ system is the last step for the payroll system.
 
 ### Class Diagram
 
+The class diagram depicts a comprehensive overview of a system comprising five interconnected classes: Employee, Leave, Attendance, Deductions, and Salary. Each class encapsulates specific attributes and functionalities relevant to its role in the system. Employee serves as the central entity, with Deductions, Leave, Attendance, and Salary linked to it. Deductions, Leave, and Attendance, in turn, are intricately connected to the Salary class. The diagram showcases the relationships and dependencies among these classes, emphasizing the flow of information and computations within the system. Through this visual representation, the interplay between employee-related entities and their associated data types, such as double and string, is elucidated, offering a clear insight into the organizational structure and data interactions within the system.
+
+![alt text](<../Class Diagram.png>)
+
 ### Testing
 
 On March 14, Francis, Jomari, and our group worked together on Collaborative Testing, where we checked our project for any errors and discussed improvements. Then, on March 18, we had a session with our Subject Mentor for Object-Oriented Programming (OOP). We reviewed our code with the mentor's guidance, making necessary adjustments. The screenshots of our collaborative testing and the jamboard used during mentoring were instrumental in this process. These sessions were essential as they helped us refine our code and meet the project requirements more effectively.
 
-#### Screenshots from the Testing:
+Drive Link for the Screenshots
+https://drive.google.com/drive/folders/1w_N0jDR4dLHk6HL4jgjccvXQYNA9mYYU?usp=sharing
 
+#### Screenshots from the Testing:
+![alt text](<../Collaborative Testing 2.png>)
+![alt text](<../Collaborative Testing 1.png>)![alt text](<../Collaborative Testing.png>)
