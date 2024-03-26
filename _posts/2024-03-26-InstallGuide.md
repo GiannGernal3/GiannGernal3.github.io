@@ -100,7 +100,7 @@ This automated system will enable HR Managers, IT Personnel, and Payroll Adminis
 
 This application is compatible with all three operating systems (Windows, MacOS, Linux), there is no difference in the installation steps.
 
-1. To begin click this [link]() to access the Gdrive containing the payroll system.
+1. To begin click this [link](https://drive.google.com/drive/folders/1XMk3H9p12hoPyUpXnvyOlkN3FHLeWBcP?usp=sharing) to access the Gdrive containing the payroll system.
 
 2. Right click on the file, and click download.
 
